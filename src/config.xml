@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.codeinvaders" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Code Invaders</name>
+    <description>
+        Code Invaders is a mobile application that helps users to improve their programming knowledge, especially debugging, in an entertaining and exciting way. This game has a similar gameplay to "Space Invaders" but spaceships will have a look based on the logos of programming languages and the enemies will be bugs. The current available spaceships / programming languages are C++, Java and Python. This game was developed using Cordova and Phaser 3.
+    </description>
+    <author email="fowenpatrick@gmail.com" href="https://markbirds.github.io/owenfalculan/">
+        Owen Patrick Falculan
+    </author>
+    <icon density="mdpi" platform="android" src="www/assets/images/icon.png" />
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+</widget>
