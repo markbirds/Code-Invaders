@@ -76,7 +76,7 @@ class GameScene extends Phaser.Scene {
       .setHTML(
         `
           <button class="settings-button">
-            <img src="../../assets/images/settings.png" class="settings-button" width="40px">
+            <img src="assets/images/settings.png" class="settings-button" width="40px">
           </button>
         `
       );
@@ -111,16 +111,16 @@ class GameScene extends Phaser.Scene {
                 <h2>${highScore}</h2>
               </div>
               <button class="button-menu save">
-                <img src="../../assets/images/texts/save.png" class="save" width="35%">
+                <img src="assets/images/texts/save.png" class="save" width="35%">
               </button>
               <button class="button-menu resume">
-                <img src="../../assets/images/texts/resume.png" class="resume" width="52%">
+                <img src="assets/images/texts/resume.png" class="resume" width="52%">
               </button>
               <button class="button-menu restart">
-                <img src="../../assets/images/texts/restart.png" class="restart" width="58%">
+                <img src="assets/images/texts/restart.png" class="restart" width="58%">
               </button>
               <button class="button-menu main-menu">
-                <img src="../../assets/images/texts/main-menu.png" class="main-menu" width="72%">
+                <img src="assets/images/texts/main-menu.png" class="main-menu" width="72%">
               </button>
             </section>
           `
@@ -530,7 +530,7 @@ class GameScene extends Phaser.Scene {
             <input type="number" id="answer" placeholder="Enter line of error"/>
             <div>
               <button class="check ${disabled}">
-                <img src="../../assets/images/check.png" class="check ${disabled}" width="40px">
+                <img src="assets/images/check.png" class="check ${disabled}" width="40px">
               </button>
             </div>
           </div>
@@ -590,10 +590,10 @@ class GameScene extends Phaser.Scene {
         ${text}
       </div>
       <button class="main-menu">
-        <img src="../../assets/images/main-menu.png" class="main-menu" width="40px">
+        <img src="assets/images/main-menu.png" class="main-menu" width="40px">
       </button>
       <button class="restart-button">
-        <img src="../../assets/images/restart.png" class="restart-button" width="40px">
+        <img src="assets/images/restart.png" class="restart-button" width="40px">
       </button>
       </section>
       `

@@ -30,7 +30,7 @@ class ReadTutorialScene extends Phaser.Scene {
         `
         <section class="wrapper">
           <button class="back-button">
-            <img src="../../assets/images/back.png" class="back-button" width="50px">
+            <img src="assets/images/back.png" class="back-button" width="50px">
           </button>
           <div class="read-tutorial-content">
             <h2>Tutorial Links</h2>

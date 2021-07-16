@@ -7,6 +7,9 @@
     <author email="fowenpatrick@gmail.com" href="https://markbirds.github.io/owenfalculan/">
         Owen Patrick Falculan
     </author>
+    <icon src="www/assets/images/icon.png" platform="android" density="mdpi" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
