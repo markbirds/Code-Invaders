@@ -23,8 +23,8 @@ class GameScene extends Phaser.Scene {
 
     // number of beams
     this.beamNum = 1;
-    // address clicking settings button once opened
-    this.settingsDisplayed = false;
+    // address clicking pause button once opened
+    this.pauseDisplayed = false;
 
     // set this to false when game over
     this.playing = true;
@@ -69,29 +69,29 @@ class GameScene extends Phaser.Scene {
       }
     );
 
-    // settings button
+    // pause button
     let button = this.add
       .dom(config.general.windowWidth - 35, 17)
       .createElement("div", "", "")
       .setHTML(
         `
-          <button class="settings-button">
-            <img src="../../assets/images/settings.png" class="settings-button" width="40px">
+          <button class="pause-button">
+            <img src="../../assets/images/pause.png" class="pause-button" width="40px">
           </button>
         `
       );
 
     button.addListener("click");
     button.on("click", (event) => {
-      // clicked settings button
+      // clicked pause button
       if (
-        event.target.className.includes("settings-button") &&
-        this.settingsDisplayed === false
+        event.target.className.includes("pause-button") &&
+        this.pauseDisplayed === false
       ) {
-        // pause the scene and set settingsDisplayed to true
+        // pause the scene and set pauseDisplayed to true
         this.game.scene.scenes[0].selectSound.play();
         this.scene.pause();
-        this.settingsDisplayed = true;
+        this.pauseDisplayed = true;
 
         // get highscore from local storage
         let highScore =
@@ -99,10 +99,10 @@ class GameScene extends Phaser.Scene {
             ? +localStorage.getItem("highScore")
             : 0;
 
-        // add settings html component
-        let settings = this.add
+        // add pause html component
+        let pause = this.add
           .dom(config.general.windowWidth / 2, config.general.windowHeight / 2)
-          .createElement("article", config.styles.settings, "")
+          .createElement("article", config.styles.pause, "")
           .setHTML(
             `
             <section class="wrapper">
@@ -127,8 +127,8 @@ class GameScene extends Phaser.Scene {
           );
 
         // setting events
-        settings.addListener("click");
-        settings.on("click", (event) => {
+        pause.addListener("click");
+        pause.on("click", (event) => {
           if (event.target.className.includes("save")) {
             this.game.scene.scenes[0].selectSound.play();
             setTimeout(() => {
@@ -137,9 +137,9 @@ class GameScene extends Phaser.Scene {
           } else if (event.target.className.includes("resume")) {
             this.game.scene.scenes[0].selectSound.play();
             setTimeout(() => {
-              settings.destroy();
+              pause.destroy();
               this.scene.resume();
-              this.settingsDisplayed = false;
+              this.pauseDisplayed = false;
             }, 100);
           } else if (event.target.className.includes("restart")) {
             this.game.scene.scenes[0].selectSound.play();
@@ -151,11 +151,11 @@ class GameScene extends Phaser.Scene {
             this.game.scene.scenes[0].selectSound.play();
             setTimeout(() => {
               this.tweens.add({
-                targets: settings,
+                targets: pause,
                 duration: 10,
                 repeat: 0,
                 onComplete: function () {
-                  settings.setAlpha(0);
+                  pause.setAlpha(0);
                 },
                 callbackScope: this,
               });
@@ -470,9 +470,9 @@ class GameScene extends Phaser.Scene {
 
   // debugging question every 2000 points
   showDebuggingQuestion() {
-    // pause the scene and set settingsDisplayed to true
+    // pause the scene and set pauseDisplayed to true
     this.scene.pause();
-    this.settingsDisplayed = true;
+    this.pauseDisplayed = true;
 
     // gets the details of question from config.js
     let error = debugging[this.mode][this.ship][this.debuggingNum]["error"];
@@ -499,7 +499,7 @@ class GameScene extends Phaser.Scene {
           debuggingComponent.setHTML(createContent(error, src, true));
           setTimeout(() => {
             this.scene.resume();
-            this.settingsDisplayed = false;
+            this.pauseDisplayed = false;
             this.debuggingNum++;
             debuggingComponent.destroy();
             // call game over with text level completed
@@ -625,7 +625,7 @@ class GameScene extends Phaser.Scene {
       }
     });
     localStorage.removeItem("savedScene");
-    this.settingsDisplayed = true;
+    this.pauseDisplayed = true;
   }
 
   // saving the scene to localstorage - current score, player coordinates, ship, beams, enemies, bomb or powerups

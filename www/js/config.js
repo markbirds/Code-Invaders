@@ -33,7 +33,7 @@ config["styles"] = {
       +(config.general.windowHeight - config.general.windowHeight * 0.15) +
       "px",
   ].join(";"),
-  settings: [
+  pause: [
     "width:" +
       +(config.general.windowWidth - config.general.windowWidth * 0.2) +
       "px",
@@ -63,17 +63,17 @@ var debugging = {
       {
         error: 'error: missing terminating " character',
         src: "../../assets/images/debugging/input-output/cpp/0.svg",
-        answer: "8",
+        answer: "7",
       },
       {
         error: "error: no match for ‘operator<<’",
         src: "../../assets/images/debugging/input-output/cpp/1.svg",
-        answer: "12",
+        answer: "11",
       },
       {
         error: "error: ‘nam’ was not declared in this scope",
         src: "../../assets/images/debugging/input-output/cpp/2.svg",
-        answer: "9",
+        answer: "8",
       },
     ],
     "java-sprite": [
@@ -127,7 +127,7 @@ var debugging = {
       {
         error: "error: expected initializer before ‘==’ token",
         src: "../../assets/images/debugging/variables/cpp/2.svg",
-        answer: "5",
+        answer: "4",
       },
     ],
     "java-sprite": [
@@ -170,17 +170,17 @@ var debugging = {
       {
         error: "error: expected ‘}’ before ‘else’",
         src: "../../assets/images/debugging/if-statements/cpp/0.svg",
-        answer: "9",
+        answer: "8",
       },
       {
         error: "error: expected primary-expression before ‘=’ token",
         src: "../../assets/images/debugging/if-statements/cpp/1.svg",
-        answer: "7",
+        answer: "6",
       },
       {
         error: "error: ‘else’ without a previous ‘if’",
         src: "../../assets/images/debugging/if-statements/cpp/2.svg",
-        answer: "7",
+        answer: "6",
       },
     ],
     "java-sprite": [
