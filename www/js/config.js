@@ -33,7 +33,7 @@ config["styles"] = {
       +(config.general.windowHeight - config.general.windowHeight * 0.15) +
       "px",
   ].join(";"),
-  settings: [
+  pause: [
     "width:" +
       +(config.general.windowWidth - config.general.windowWidth * 0.2) +
       "px",
