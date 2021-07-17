@@ -39,10 +39,10 @@ class SelectScene extends Phaser.Scene {
       .setHTML(
         `
         <button class="back-button">
-          <img src="../../assets/images/back.png" class="back-button" width="50px">
+          <img src="assets/images/back.png" class="back-button" width="50px">
         </button>
         <button class="check">
-          <img src="../../assets/images/check.png" class="check" width="50px">
+          <img src="assets/images/check.png" class="check" width="50px">
         </button>
       `
       );

@@ -4,28 +4,24 @@ class StartScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("background", "../../assets/images/background-looped.png");
+    this.load.image("background", "assets/images/background-looped.png");
 
-    this.load.image("clouds", "../../assets/images/clouds.png");
+    this.load.image("clouds", "assets/images/clouds.png");
 
-    this.load.image("spaceships", "../../assets/images/texts/spaceships.png");
+    this.load.image("spaceships", "assets/images/texts/spaceships.png");
 
     this.load.image(
       "clouds-transparent",
-      "../../assets/images/clouds-transparent.png"
+      "assets/images/clouds-transparent.png"
     );
 
-    this.load.spritesheet(
-      "cpp-sprite",
-      "../../assets/spritesheets/cpp-sprite.png",
-      {
-        frameWidth: 32,
-        frameHeight: 16,
-      }
-    );
+    this.load.spritesheet("cpp-sprite", "assets/spritesheets/cpp-sprite.png", {
+      frameWidth: 32,
+      frameHeight: 16,
+    });
     this.load.spritesheet(
       "java-sprite",
-      "../../assets/spritesheets/java-sprite.png",
+      "assets/spritesheets/java-sprite.png",
       {
         frameWidth: 32,
         frameHeight: 32,
@@ -33,55 +29,47 @@ class StartScene extends Phaser.Scene {
     );
     this.load.spritesheet(
       "python-sprite",
-      "../../assets/spritesheets/python-sprite.png",
+      "assets/spritesheets/python-sprite.png",
       {
         frameWidth: 16,
         frameHeight: 24,
       }
     );
 
-    this.load.spritesheet("bug1", "../../assets/spritesheets/bug1.png", {
+    this.load.spritesheet("bug1", "assets/spritesheets/bug1.png", {
       frameWidth: 38,
       frameHeight: 38,
     });
-    this.load.spritesheet("bug2", "../../assets/spritesheets/bug2.png", {
+    this.load.spritesheet("bug2", "assets/spritesheets/bug2.png", {
       frameWidth: 38,
       frameHeight: 38,
     });
 
-    this.load.spritesheet(
-      "explosion",
-      "../../assets/spritesheets/explosion.png",
-      {
-        frameWidth: 16,
-        frameHeight: 16,
-      }
-    );
+    this.load.spritesheet("explosion", "assets/spritesheets/explosion.png", {
+      frameWidth: 16,
+      frameHeight: 16,
+    });
 
     this.load.spritesheet(
       "title",
-      "../../assets/spritesheets/title-spritesheet.png",
+      "assets/spritesheets/title-spritesheet.png",
       {
         frameWidth: 320,
         frameHeight: 80,
       }
     );
 
-    this.load.spritesheet("start", "../../assets/spritesheets/start.png", {
+    this.load.spritesheet("start", "assets/spritesheets/start.png", {
       frameWidth: 120,
       frameHeight: 24,
     });
 
-    this.load.spritesheet(
-      "power-bomb",
-      "../../assets/spritesheets/power-bomb.png",
-      {
-        frameWidth: 16,
-        frameHeight: 16,
-      }
-    );
+    this.load.spritesheet("power-bomb", "assets/spritesheets/power-bomb.png", {
+      frameWidth: 16,
+      frameHeight: 16,
+    });
 
-    this.load.spritesheet("beam", "../../assets/spritesheets/beam.png", {
+    this.load.spritesheet("beam", "assets/spritesheets/beam.png", {
       frameWidth: 16,
       frameHeight: 16,
     });

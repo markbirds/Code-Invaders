@@ -30,7 +30,7 @@ class HowToPlayScene extends Phaser.Scene {
         `
       <section class="wrapper">
         <button class="back-button">
-          <img src="../../assets/images/back.png" class="back-button" width="50px">
+          <img src="assets/images/back.png" class="back-button" width="50px">
         </button>
         <div class="how-to-play-content">
           <h2>How to Play</h2>

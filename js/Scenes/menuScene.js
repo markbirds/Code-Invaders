@@ -22,22 +22,22 @@ class MenuScene extends Phaser.Scene {
         `
         <section class="wrapper">
           <button class="back-button">
-            <img src="../../assets/images/back.png" class="back-button" width="50px">
+            <img src="assets/images/back.png" class="back-button" width="50px">
           </button>
           <button class="button-menu debug-mode">
-            <img src="../../assets/images/texts/debug-mode.png" class="debug-mode" width="80%">
+            <img src="assets/images/texts/debug-mode.png" class="debug-mode" width="80%">
           </button>
           <button class="button-menu endless-mode">
-            <img src="../../assets/images/texts/endless-mode.png" class="endless-mode" width="93%">
+            <img src="assets/images/texts/endless-mode.png" class="endless-mode" width="93%">
           </button>
           <button class="button-menu how-to-play">
-            <img src="../../assets/images/texts/how-to-play.png" class="how-to-play" width="82%">
+            <img src="assets/images/texts/how-to-play.png" class="how-to-play" width="82%">
           </button>
           <button class="button-menu read-tutorials">
-            <img src="../../assets/images/texts/read-tutorials.png" class="read-tutorials" width="100%">
+            <img src="assets/images/texts/read-tutorials.png" class="read-tutorials" width="100%">
           </button>
           <button class="button-menu about">
-            <img src="../../assets/images/texts/about.png" class="about" width="40%">
+            <img src="assets/images/texts/about.png" class="about" width="40%">
           </button>
         </section>
       `

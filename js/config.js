@@ -62,51 +62,51 @@ var debugging = {
     "cpp-sprite": [
       {
         error: 'error: missing terminating " character',
-        src: "../../assets/images/debugging/input-output/cpp/0.svg",
+        src: "assets/images/debugging/input-output/cpp/0.svg",
         answer: "7",
       },
       {
         error: "error: no match for ‘operator<<’",
-        src: "../../assets/images/debugging/input-output/cpp/1.svg",
+        src: "assets/images/debugging/input-output/cpp/1.svg",
         answer: "11",
       },
       {
         error: "error: ‘nam’ was not declared in this scope",
-        src: "../../assets/images/debugging/input-output/cpp/2.svg",
+        src: "assets/images/debugging/input-output/cpp/2.svg",
         answer: "8",
       },
     ],
     "java-sprite": [
       {
         error: "error: unclosed string literal",
-        src: "../../assets/images/debugging/input-output/java/0.svg",
+        src: "assets/images/debugging/input-output/java/0.svg",
         answer: "7",
       },
       {
         error: "error: not a statement",
-        src: "../../assets/images/debugging/input-output/java/1.svg",
+        src: "assets/images/debugging/input-output/java/1.svg",
         answer: "9",
       },
       {
         error: "error: cannot find symbol",
-        src: "../../assets/images/debugging/input-output/java/2.svg",
+        src: "assets/images/debugging/input-output/java/2.svg",
         answer: "4",
       },
     ],
     "python-sprite": [
       {
         error: "SyntaxError: EOL while scanning string literal",
-        src: "../../assets/images/debugging/input-output/python/0.svg",
+        src: "assets/images/debugging/input-output/python/0.svg",
         answer: "2",
       },
       {
         error: "NameError: name 'prin' is not defined",
-        src: "../../assets/images/debugging/input-output/python/1.svg",
+        src: "assets/images/debugging/input-output/python/1.svg",
         answer: "4",
       },
       {
         error: "SyntaxError: invalid syntax",
-        src: "../../assets/images/debugging/input-output/python/2.svg",
+        src: "assets/images/debugging/input-output/python/2.svg",
         answer: "1",
       },
     ],
@@ -116,51 +116,51 @@ var debugging = {
       {
         error:
           "error: invalid conversion from ‘const char*’ to ‘int’ [-fpermissive]",
-        src: "../../assets/images/debugging/variables/cpp/0.svg",
+        src: "assets/images/debugging/variables/cpp/0.svg",
         answer: "7",
       },
       {
         error: "error: ‘b’ was not declared in this scope",
-        src: "../../assets/images/debugging/variables/cpp/1.svg",
+        src: "assets/images/debugging/variables/cpp/1.svg",
         answer: "6",
       },
       {
         error: "error: expected initializer before ‘==’ token",
-        src: "../../assets/images/debugging/variables/cpp/2.svg",
+        src: "assets/images/debugging/variables/cpp/2.svg",
         answer: "4",
       },
     ],
     "java-sprite": [
       {
         error: "error: incompatible types: String cannot be converted to int",
-        src: "../../assets/images/debugging/variables/java/0.svg",
+        src: "assets/images/debugging/variables/java/0.svg",
         answer: "5",
       },
       {
         error: "error: cannot find symbol",
-        src: "../../assets/images/debugging/variables/java/1.svg",
+        src: "assets/images/debugging/variables/java/1.svg",
         answer: "4",
       },
       {
         error: "error: ';' expected",
-        src: "../../assets/images/debugging/variables/java/2.svg",
+        src: "assets/images/debugging/variables/java/2.svg",
         answer: "3",
       },
     ],
     "python-sprite": [
       {
         error: "SyntaxError: can't assign to operator",
-        src: "../../assets/images/debugging/variables/python/0.svg",
+        src: "assets/images/debugging/variables/python/0.svg",
         answer: "2",
       },
       {
         error: "ValueError: too many values to unpack (expected 2)",
-        src: "../../assets/images/debugging/variables/python/1.svg",
+        src: "assets/images/debugging/variables/python/1.svg",
         answer: "1",
       },
       {
         error: "TypeError: unsupported operand type(s) for +: 'int' and 'str'",
-        src: "../../assets/images/debugging/variables/python/2.svg",
+        src: "assets/images/debugging/variables/python/2.svg",
         answer: "3",
       },
     ],
@@ -169,51 +169,51 @@ var debugging = {
     "cpp-sprite": [
       {
         error: "error: expected ‘}’ before ‘else’",
-        src: "../../assets/images/debugging/if-statements/cpp/0.svg",
+        src: "assets/images/debugging/if-statements/cpp/0.svg",
         answer: "8",
       },
       {
         error: "error: expected primary-expression before ‘=’ token",
-        src: "../../assets/images/debugging/if-statements/cpp/1.svg",
+        src: "assets/images/debugging/if-statements/cpp/1.svg",
         answer: "6",
       },
       {
         error: "error: ‘else’ without a previous ‘if’",
-        src: "../../assets/images/debugging/if-statements/cpp/2.svg",
+        src: "assets/images/debugging/if-statements/cpp/2.svg",
         answer: "6",
       },
     ],
     "java-sprite": [
       {
         error: "error: 'else' without 'if'",
-        src: "../../assets/images/debugging/if-statements/java/0.svg",
+        src: "assets/images/debugging/if-statements/java/0.svg",
         answer: "7",
       },
       {
         error: "error: incompatible types: int cannot be converted to boolean",
-        src: "../../assets/images/debugging/if-statements/java/1.svg",
+        src: "assets/images/debugging/if-statements/java/1.svg",
         answer: "5",
       },
       {
         error: "error: 'else' without 'if'",
-        src: "../../assets/images/debugging/if-statements/java/2.svg",
+        src: "assets/images/debugging/if-statements/java/2.svg",
         answer: "5",
       },
     ],
     "python-sprite": [
       {
         error: "IndentationError: expected an indented block",
-        src: "../../assets/images/debugging/if-statements/python/0.svg",
+        src: "assets/images/debugging/if-statements/python/0.svg",
         answer: "4",
       },
       {
         error: "SyntaxError: invalid syntax",
-        src: "../../assets/images/debugging/if-statements/python/1.svg",
+        src: "assets/images/debugging/if-statements/python/1.svg",
         answer: "4",
       },
       {
         error: "SyntaxError: invalid syntax",
-        src: "../../assets/images/debugging/if-statements/python/2.svg",
+        src: "assets/images/debugging/if-statements/python/2.svg",
         answer: "3",
       },
     ],

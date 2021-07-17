@@ -30,7 +30,7 @@ class AboutScene extends Phaser.Scene {
         `
         <section class="wrapper">
           <button class="back-button">
-            <img src="../../assets/images/back.png" class="back-button" width="50px">
+            <img src="assets/images/back.png" class="back-button" width="50px">
           </button>
           <div class="about-content">
             <h2>About</h2>

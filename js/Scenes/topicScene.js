@@ -22,31 +22,31 @@ class TopicScene extends Phaser.Scene {
         `
       <section class="wrapper">
         <button class="back-button">
-          <img src="../../assets/images/back.png" class="back-button" width="50px">
+          <img src="assets/images/back.png" class="back-button" width="50px">
         </button>
         <button class="input-output topics button-menu">
-          <img src="../../assets/images/texts/input-output.png" class="input-output topics" width="98%">
+          <img src="assets/images/texts/input-output.png" class="input-output topics" width="98%">
         </button>
         <button class="variables topics button-menu">
-          <img src="../../assets/images/texts/variables.png" class="variables topics" width="76%">
+          <img src="assets/images/texts/variables.png" class="variables topics" width="76%">
         </button>
         <button class="if-statements topics button-menu">
-          <img src="../../assets/images/texts/if-statements.png" class="if-statements topics" width="100%">
+          <img src="assets/images/texts/if-statements.png" class="if-statements topics" width="100%">
         </button>
         <button class="while-loop topics button-menu">
-          <img src="../../assets/images/texts/while-loop.png" class="while-loop topics" width="82%">
+          <img src="assets/images/texts/while-loop.png" class="while-loop topics" width="82%">
         </button>
         <button class="for-loop topics button-menu">
-          <img src="../../assets/images/texts/for-loop.png" class="for-loop topics" width="65%">
+          <img src="assets/images/texts/for-loop.png" class="for-loop topics" width="65%">
         </button>
         <button class="arrays topics button-menu">
-          <img src="../../assets/images/texts/arrays.png" class="arrays topics" width="50%">
+          <img src="assets/images/texts/arrays.png" class="arrays topics" width="50%">
         </button>
         <button class="functions topics button-menu">
-          <img src="../../assets/images/texts/functions.png" class="functions topics" width="65%">
+          <img src="assets/images/texts/functions.png" class="functions topics" width="65%">
         </button>
         <button class="classes topics button-menu">
-          <img src="../../assets/images/texts/classes.png" class="classes topics" width="60%">
+          <img src="assets/images/texts/classes.png" class="classes topics" width="60%">
         </button>
       </section>
       `
